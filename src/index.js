@@ -21,7 +21,7 @@ function App() {
     // return obj[action];
   };
 
-  // const [value, setValue] = React.useState()
+  const [value, setValue] = React.useState();
   const [count, dispatch] = React.useReducer(reducer, 0);
 
   return (
